@@ -28,3 +28,33 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Local .terraform directories
+
+**/.terraform/*
+
+
+
+# Ignore variables files
+
+*.auto.tfvars
+
+
+
+# Ignore override files
+
+*.tfoverride
+
+
+
+# Ignore environment-specific files
+
+.envrc
+
+
+
+# Ignore CLI configuration files
+
+.terraformrc
+
+terraform.rc
